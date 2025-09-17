@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/custom.css">
+</head>
+<body>
+    <div class="card">
+
+        <div class="search">
+            <input type="text" placeholder="Location" spellcheck="false">
+            <button class="search_btn">
+                <div class="spinner-border spin_loader" role="status"></div>
+              <img class="search_img" src="IMAGES/search.png" alt=""></button>
+        </div>
+
+            <div class="alert alert-danger bg-danger border-0 text-white error_div" role="alert">
+                Sorry, this location does not  seem to exist...
+              </div>
+      
+
+        <div class="weather">
+            <img src="IMAGES/rain.jpg" alt="" class="weather_icon">
+            <h1 class="temperature">22c</h1>
+            <h2 class="city">New York</h2>
+
+            <div class="details">
+                <div class="col">
+                    <img src="IMAGES/humidity.jpg" alt="" class="humidity_icon">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <img src="IMAGES/wind.jpg" alt="" class="wind_icon">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="JavaScript/jquery.min.js"></script>
+    <script type="text/javascript" src="JavaScript/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="JavaScript/custom.js"></script>
+</body>
+</html>
